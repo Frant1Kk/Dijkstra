@@ -1,0 +1,71 @@
+\hypertarget{_dijkstra_8cpp}{}\section{Dijkstra.\+cpp File Reference}
+\label{_dijkstra_8cpp}\index{Dijkstra.\+cpp@{Dijkstra.\+cpp}}
+{\ttfamily \#include $<$iostream$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_dijkstra_8cpp_a58d85fa7003f941131aff8932eee2e2c}{Dijkstra} (int $\ast$$\ast$a, int n, int st)
+\begin{DoxyCompactList}\small\item\em Funkciya realizuet algoritm Dejkstry. \end{DoxyCompactList}\item 
+void \hyperlink{_dijkstra_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{main} ()
+\begin{DoxyCompactList}\small\item\em Glavnaya funkciya \hyperlink{_dijkstra_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{main()} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{_dijkstra_8cpp_a58d85fa7003f941131aff8932eee2e2c}{}\index{Dijkstra.\+cpp@{Dijkstra.\+cpp}!Dijkstra@{Dijkstra}}
+\index{Dijkstra@{Dijkstra}!Dijkstra.\+cpp@{Dijkstra.\+cpp}}
+\subsubsection[{Dijkstra}]{\setlength{\rightskip}{0pt plus 5cm}void Dijkstra (
+\begin{DoxyParamCaption}
+\item[{int $\ast$$\ast$}]{a, }
+\item[{int}]{n, }
+\item[{int}]{st}
+\end{DoxyParamCaption}
+)}\label{_dijkstra_8cpp_a58d85fa7003f941131aff8932eee2e2c}
+
+
+Funkciya realizuet algoritm Dejkstry. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em $\ast$$\ast$a} & -\/ dvojnoj ukazatel\textquotesingle{} na massiv \\
+\hline
+\mbox{\tt in}  & {\em n} & -\/ razmernost\textquotesingle{} massiva \\
+\hline
+\mbox{\tt in}  & {\em st} & -\/ nachal\textquotesingle{}naya vershina \\
+\hline
+\end{DoxyParams}
+Chislennyj massiv, v kotoryj budut zanosit\textquotesingle{}sya najdennye min puti
+
+Logicheskij massiv dlya hraneniya informacii o poseshhennyh vershinah
+
+Iznachal\textquotesingle{}no sozdaem massiv s rasstoyaniyami, kotorye zavedomo bol\textquotesingle{}she lubogo potencial\textquotesingle{}nogo puti
+
+Kazhduju vershinu otmechaem kak ne poseshhennuju
+
+Ishodnaya vershina
+
+Poisk sosednih vershin
+
+Peresmotr rasstoyaniya
+
+Pomechaem vershiny kak poseshhennye
+
+Vychislenie rasstoyaniya
+
+Vyvod min puti \hypertarget{_dijkstra_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{}\index{Dijkstra.\+cpp@{Dijkstra.\+cpp}!main@{main}}
+\index{main@{main}!Dijkstra.\+cpp@{Dijkstra.\+cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}void main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{_dijkstra_8cpp_acdef7a1fd863a6d3770c1268cb06add3}
+
+
+Glavnaya funkciya \hyperlink{_dijkstra_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{main()} 
+
+Vvod kolichestva vershin
+
+Sozdaem matricu smezhnosti (vmesto edinic v nej budut vystavleny vesa reber)
+
+Zadaem nachal\textquotesingle{}nuju vershinu
+
+Vyzyvaem funkciju, realizujushhuju algoritm Dejkstry 
